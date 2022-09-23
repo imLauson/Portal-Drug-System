@@ -7,7 +7,7 @@
     Portal-Drug-System
   </h1>
   <h2 align="center">
-    本科毕业设计  
+    Graduation Design  
    </h2>
  </div>
 
