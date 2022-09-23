@@ -6,6 +6,9 @@
   <h1 align="center">
     Portal-Drug-System
   </h1>
+  <h2 align="center">
+    本科毕业设计  
+   </h2>
  </div>
 
 
