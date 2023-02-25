@@ -18,7 +18,7 @@
 </div>
 
 #### 项目介绍  : 
-Lauson
+Lausonim
 Spring Boot + Security + MyBatis + Thymeleaf + Activiti +LayUI
 
 #### 内置功能
