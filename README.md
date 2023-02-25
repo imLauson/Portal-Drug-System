@@ -18,7 +18,7 @@
 </div>
 
 #### 项目介绍  : 
-Lausonim
+Lausonim冲冲冲
 Spring Boot + Security + MyBatis + Thymeleaf + Activiti +LayUI
 
 #### 内置功能
