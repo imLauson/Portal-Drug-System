@@ -81,7 +81,7 @@ Portal-Drug-System
 │  │
 │  └─application.yml 配置文件
 │  
-└─pom.xml  Maven 配置
+└─pom.xml  Maven  配置
 
 ```
 
