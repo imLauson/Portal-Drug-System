@@ -18,7 +18,7 @@
 </div>
 
 #### 项目介绍  : 
-Lausonim冲冲冲
+#### 主要技术  :
 Spring Boot + Security + MyBatis + Thymeleaf + Activiti +LayUI
 
 #### 内置功能
