@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * 用户修改密码接口参数实体
- * @Author: Heiky
+ * @Author: Lauson
  * @Date: 2020/12/31 16:46
  * @Description:
  */
