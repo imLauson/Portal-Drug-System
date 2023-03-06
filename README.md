@@ -1,12 +1,7 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5995/badge)](https://bestpractices.coreinfrastructure.org/projects/5995)
 
 <div align="center">
-<br/>
-  <br/>
 
-  <br/>
-<br/>
-<br/>
 
 
   <h1 align="center">
@@ -40,6 +35,8 @@ Spring Boot + Security + MyBatis + Thymeleaf + Activiti +LayUI
 9.  疾病预防：根据出库数量进行提醒执行。
 10. 邮件配置：邮件配置参照腾讯Smtp设置。
 11. 消息管理：系统通知公告信息发布维护。
+12. 系统监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
+13. 11. 消息管理：系统通知公告信息发布维护。
 12. 系统监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 
 #### 项目结构所示
