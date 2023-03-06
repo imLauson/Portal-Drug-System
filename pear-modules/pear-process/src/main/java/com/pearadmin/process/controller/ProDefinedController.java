@@ -58,6 +58,16 @@ public class ProDefinedController extends BaseController {
      * Param: modelAndView
      * Return: 流程定义列表数据
      */
+        /**
+     * Describe: 获取流程定义列表数据
+     * Param: modelAndView
+     * Return: 流程定义列表数据
+     */
+        /**
+     * Describe: 获取流程定义列表数据
+     * Param: modelAndView
+     * Return: 流程定义列表数据
+     */
     @GetMapping("data")
     public ResultTable data(PageDomain pageDomain, String name) {
         ProcessDefinitionQuery processDefinitionQuery = repositoryService
@@ -117,6 +127,21 @@ public class ProDefinedController extends BaseController {
      * Return: 流程模型列表视图
      */
     @GetMapping("/resource")
+    public void getProcessDefineResource(HttpServletResponse response,
+                                         @RequestParam("definedId") String processDefineId, String resourceName) {
+        InputStream inputStream = getProcessDefineResource(processDefineId, resourceName);
+        byte[] bytes = new byte[1024];
+        try {
+            OutputStream outputStream = response.getOutputStream();
+            while (inputStream.read(bytes) != -1) {
+                outputStream.write(bytes);
+            }
+            inputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+        @GetMapping("/resource")
     public void getProcessDefineResource(HttpServletResponse response,
                                          @RequestParam("definedId") String processDefineId, String resourceName) {
         InputStream inputStream = getProcessDefineResource(processDefineId, resourceName);
