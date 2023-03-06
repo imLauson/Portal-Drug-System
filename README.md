@@ -36,7 +36,7 @@ Spring Boot + Security + MyBatis + Thymeleaf + Activiti +LayUI
 11. 消息管理：系统通知公告信息发布维护。
 12. 系统监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 
-#### 项目结构如下
+#### 项目结构所示
 
 ```
 Portal-Drug-System
